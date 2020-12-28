@@ -10,7 +10,6 @@
 
 
 //executes the command with the execvp
-//the code from this function is modified from the Module 4 Exploration: Process API
 void handle_SIGINT(int signo){
 	char* message = "Caught SIGINT.\n";
 	write(STDOUT_FILENO, message, 20);
